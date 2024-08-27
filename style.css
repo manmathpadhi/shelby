@@ -1,0 +1,265 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%), url(tommy.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.nav {
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon {
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.logo {
+    color: rgb(11, 134, 134);
+    font-family: "Kanit", sans-serif;
+    font-size: 35px;
+    padding-top: 10px;
+    padding-left: 20px;
+    float: left;
+}
+
+.menu {
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+}
+
+ul li {
+    font-size: 14px;
+    list-style: none;
+    margin-top: 27px;
+    margin-left: 62px;
+}
+
+ul li a {
+    text-decoration: none;
+    font-family: "Poppins", system-ui;
+    color: darkgray;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover {
+    color: rgb(11, 134, 134);
+}
+
+.search {
+    width: 330px;
+    margin-left: 264px;
+    float: left;
+}
+
+.srch {
+    font-family: "Raleway", sans-serif;
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid rgb(11, 134, 134);
+    margin: 13px;
+    color: darkgray;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.btn {
+    width: 100px;
+    height: 40px;
+    background: rgb(11, 134, 134);
+    border: 2px solid rgb(11, 134, 134);
+    margin-top: 13px;
+    margin-left: -13px;
+    color: darkgray;
+    font-size: 15px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.btn:focus {
+    outline: none;
+}
+
+.srch:focus {
+    outline: none;
+}
+
+.content {
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: darkgray;
+    position: relative;
+}
+
+.content .para {
+    padding-left: 20px;
+    padding-bottom: 25px;
+    line-height: 30px;
+    letter-spacing: 1.2px;
+    font-family: "Poppins", system-ui;
+}
+
+.content h1 {
+    font-family: "Rye", serif;
+    padding-left: 20px;
+    font-size: 50px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+}
+
+.content .cn {
+    width: 160px;
+    height: 40px;
+    background: rgb(11, 134, 134);
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: .4s ease;
+}
+
+.content .cn a {
+    text-decoration: none;
+    color: black;
+    transition: .3 ease;
+}
+
+.cn:hover {
+    background-color: darkgray;
+}
+
+.content span {
+    color: rgb(11, 134, 134);
+    font-size: 60px;
+}
+
+.form {
+    width: 250px;
+    height: 380px;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8)50%, rgba(0, 0, 0, 0.8)50%);
+    position: absolute;
+    top: -20px;
+    left: 879px;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.form h2 {
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: rgb(11, 134, 134);
+    font-size: 22px;
+    background-color: darkgray;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+}
+
+.form input {
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-radius: 1px solid rgb(11, 134, 134);
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: darkgray;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+
+.form input:focus {
+    outline: none;
+}
+
+::placeholder {
+    color: darkgray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.btnn {
+    width: 240px;
+    height: 40px;
+    background: rgb(11, 134, 134);
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: darkgray;
+    transition: 0.4s ease;
+}
+
+.btnn:hover {
+    background: darkgray;
+    color: rgb(11, 134, 134);
+}
+
+.btnn a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.form .link {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.form .link a {
+    text-decoration: none;
+    color: rgb(11, 134, 134);
+}
+
+.liw {
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.icons a {
+    text-decoration: none;
+    color: darkgray;
+}
+
+.icons ion-icon {
+    color: darkgray;
+    font-size: 30px;
+    padding-left: 14px;
+    padding-top: 5px;
+    transition: .3s ease;
+}
+.icons ion-icon:hover{
+    color: rgb(11, 134, 134);
+}
